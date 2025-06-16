@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liquefaction</title>
+  <!-- Global styles -->
+  <link rel="stylesheet" href="../css/styles.css" />
+  <!-- Lottie player for our hero animation -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Liquefaction</a>
+      <div class="nav-right">
+        <a href="what-is-liquefaction.html">How it works</a>
+        <a href="https://www.computer.org/csdl/proceedings-article/sp/2025/223600b437/26hiUjFXiP6" target="_blank" class="external-link">Research Paper</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section id="hero">
+      <div class="wave-layer">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
+      <h1>Liquefaction</h1>
+      <h2>Privately Liquefying Blockchain Assets</h2>
+    </section>
+
+    <!-- Companies Building with Liquefaction -->
+    <section id="builders">
+      <h2>Building on Liquefaction</h2>
+      <div class="builders-scroll-container">
+        <div class="builders-scroll">
+          <div class="builder-item">
+            <a href="https://protofire.io">
+                <img src="../assets/logos/protofire.svg" alt="Protofire Logo" />
+            </a>
+          </div>
+          <div class="builder-item">
+            <a href="https://oasis.net">
+              <img src="../assets/logos/oasis.svg" alt="Oasis Labs Logo" />
+            </a>
+          </div>
+          <div class="builder-item">
+            <a href="https://semiliquid.com">
+                <img src="../assets/logos/semiliquid.svg" alt="SemiLiquid Logo" />
+            </a>
+          </div>
+          <div class="builder-item">
+            <a href="https://takemyape.com">
+                <img src="../assets/logos/TMA.svg" alt="TMA Logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Abstract Section -->
+    <section id="abstract">
+      <h2>Abstract</h2>
+      <div class="abstract-content">
+        <p>
+          Inherent in the world of cryptocurrency systems and their security models is the notion that private keys—and thus assets—are controlled by individuals or individual entities.
+        </p>
+        <p>
+          We present Liquefaction, a wallet platform that demonstrates the dangerous fragility of this foundational assumption by systemically breaking it. Liquefaction uses trusted execution environments (TEEs) to encumber private keys, i.e., attach rich, multi-user policies to their use.
+        </p>
+        <p>
+          Our work prompts a wholesale rethinking of existing models and enforcement of key and asset ownership in the cryptocurrency ecosystem.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Research -->
+    <section id="about">
+      <h2>Key Research Findings</h2>
+      <div class="research-grid">
+        <div class="research-item">
+          <h3>Key encumbrance</h3>
+          <p>Liquefaction uses TEEs to attach rich, stateful policies to a wallet’s private key, letting you rent, share or pool crypto credentials and balances entirely off-chain, with zero on-chain footprint.</p>
+        </div>
+        <div class="research-item">
+          <h3>Security Implications</h3>
+          <p>By breaking the “one key = one owner” model, Liquefaction exposes deep vulnerabilities across the ecosystem such as the trading of locked/vested tokens, covert DAO vote-buying, subverted quadratic voting, stealth wash-trading...</p>
+        </div>
+        <div class="research-item">
+          <h3>New markets</h3>
+          <p>Liquefaction unlocks privacy-preserving DAOs, dusting-attack shields, and novel financial instruments—while “Complete Knowledge” proofs give apps a simple, practical way to opt back in to single-owner security.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Implementation -->
+    <section id="code">
+      <h2>Open Source Codebase</h2>
+      <p>
+        Explore our complete open-source implementation, and check out some examples of how it can be used to implement your own access control policies:
+      </p>
+      <a class="btn" href="https://github.com/key-encumbrance/liquefaction" target="_blank">
+        View Implementation on GitHub →
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Liquefaction</p>
+  </footer>
+
+  <!-- Site scripts -->
+  <script src="../js/main.js"></script>
+</body>
+</html>
